@@ -3,20 +3,19 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState } from 'react';
-import HeaderHero from './components/HeaderHero';
-import CredibilityMetrics from './components/CredibilityMetrics';
-import AboutWhyMe from './components/AboutWhyMe';
-import FeaturedCaseStudies from './components/FeaturedCaseStudies';
-import ExperienceTimeline from './components/ExperienceTimeline';
-import SkillsTools from './components/SkillsTools';
-import CertificationsEducation from './components/CertificationsEducation';
-import FinalCTA from './components/FinalCTA';
-import Footer from './components/Footer';
-import CaseStudiesPage from './pages/CaseStudiesPage';
-import ExperiencePage from './pages/ExperiencePage';
-import CertificationsPage from './pages/CertificationsPage';
-import ContactPage from './pages/ContactPage';
+import HeaderHero from './HeaderHero';
+import CredibilityMetrics from './CredibilityMetrics';
+import AboutWhyMe from './AboutWhyMe';
+import FeaturedCaseStudies from './FeaturedCaseStudies';
+import ExperienceTimeline from './ExperienceTimeline';
+import SkillsTools from './SkillsTools';
+import CertificationsEducation from './CertificationsEducation';
+import FinalCTA from './FinalCTA';
+import Footer from './Footer';
+import CaseStudiesPage from './CaseStudiesPage';
+import ExperiencePage from './ExperiencePage';
+import CertificationsPage from './CertificationsPage';
+import ContactPage from './ContactPage';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'case-studies' | 'experience' | 'certifications' | 'contact'>('home');
