@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import React, { useState } from 'react'; // 👈 TAMBAH DI SINI
+
 import HeaderHero from './HeaderHero';
 import CredibilityMetrics from './CredibilityMetrics';
 import AboutWhyMe from './AboutWhyMe';
